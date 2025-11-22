@@ -3,8 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+  <!-- ✅ ESSENTIAL SEO TAGS -->
   <title>MODERN CV BUILDER</title>
-<link rel="stylesheet" href="index.css">
+  <meta name="description" content="Build your perfect CV for free! Choose from modern templates, fill your details, and download as PDF or CSV. No signup required. Create professional resumes in 5 minutes.">
+  <meta name="keywords" content="cv builder, resume maker, free cv templates, pdf resume, download cv, professional resume, online cv creator, modern cv">
+  
+  <!-- ✅ OPEN GRAPH TAGS (Social Media Sharing) -->
+  <meta property="og:title" content="Free CV Builder - Create Professional Resumes Online">
+  <meta property="og:description" content="Build and download professional CVs for free. Multiple templates, PDF export, and instant download.">
+  <meta property="og:image" content="https://moderncvbuilderweb.netlify.app/logo.png">
+  <meta property="og:url" content="https://moderncvbuilderweb.netlify.app/">
+  <meta property="og:type" content="website">
+  
+  <!-- ✅ CANONICAL URL -->
+  <link rel="canonical" href="https://moderncvbuilderweb.netlify.app/">
+  
+  <!-- ✅ FAVICON -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <!-- ✅ KEEP YOUR EXISTING STYLES & SCRIPTS -->
+  <link rel="stylesheet" href="index.css">
+  
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -24,7 +44,10 @@
 
   <!-- Supabase JS (UMD) -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.min.js"></script>
-  <script type="text/babel">
+</head>
+<body>
+  <div id="root"></div>
+   <script type="text/babel">
   (function () {
     const { useState, useEffect, useRef, forwardRef } = React;
     const Motion = window['framer-motion'] || {};
@@ -1062,8 +1085,5 @@
     }
   })();
   </script>
-</head>
-<body>
-  <div id="root"></div>
 </body>
 </html>
