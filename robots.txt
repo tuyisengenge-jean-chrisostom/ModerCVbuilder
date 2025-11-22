@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moderncvbuilderweb.netlify.app/sitemap.xml
